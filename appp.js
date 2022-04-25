@@ -5,8 +5,8 @@ import React from 'react';
 import {NavigationContainer} from '@react-navigation/native';
 import {createStackNavigator} from '@react-navigation/stack';
 
-import FirstPage from './android/screens/BaseScreen';
-import SecondPage from './android/screens/TransitionApp';
+import FirstPage from './android/screens/home2';
+import SecondPage from './android/screens/home1';
 
 const Stack = createStackNavigator();
 
