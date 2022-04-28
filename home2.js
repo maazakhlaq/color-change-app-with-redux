@@ -18,7 +18,7 @@ const FirstPage = ({navigation}) => {
         </Text>
       ),
       headerStyle: {
-        backgroundColor: '#f4511e', //Set Header color
+        backgroundColor: '#f4511e', 
       },
     });
   }, [navigation]);
