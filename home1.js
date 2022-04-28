@@ -15,13 +15,13 @@ const SecondPage = ({navigation}) => {
   const dispatch = useDispatch();
   React.useLayoutEffect(() => {
     navigation.setOptions({
-      title: 'Second Page', //Set Header Title
+      title: 'Second Page', 
       headerStyle: {
-        backgroundColor: '#f4511e', //Set Header color
+        backgroundColor: '#f4511e', 
       },
-      headerTintColor: '#fff', //Set Header text color
+      headerTintColor: '#fff', 
       headerTitleStyle: {
-        fontWeight: 'bold', //Set Header text style
+        fontWeight: 'bold', 
       },
       headerLeft: () => (
         <TouchableOpacity
